@@ -121,6 +121,7 @@ section {
     flex-wrap: wrap;
     justify-content: center;
     gap: 0;
+    background-color: #37353E;
 }
 
 .media-item {
