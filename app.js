@@ -89,9 +89,28 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('modal').onclick = (e) => {
         if (e.target === document.getElementById('modal')) closeModal();
     };
+
+    document.getElementById('openContact').onclick = (e) => {
+        e.preventDefault();
+        document.getElementById('contactModal').style.display = 'flex';
+    };
+
+    document.getElementById('closeContact').onclick = () => {
+        document.getElementById('contactModal').style.display = 'none';
+    };
+
+    document.getElementById('contactModal').onclick = (e) => {
+        if (e.target === document.getElementById('contactModal')) {
+            document.getElementById('contactModal').style.display = 'none';
+        }
+    };
+
     loadMedia();
 });
 
 document.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape') closeModal();
+    if (e.key === 'Escape') {
+        closeModal();
+        document.getElementById('contactModal').style.display = 'none';
+    }
 });
