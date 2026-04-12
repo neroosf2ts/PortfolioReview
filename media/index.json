@@ -1,65 +1,82 @@
-[  
-  {  
-    "id": 1,  
-    "title": "Project One",  
-    "type": "video",  
-    "file": "media/project-one/demo.mp4",  
-    "duration": "2:30",  
-    "description": "This is the first project. Add your description here.",  
-    "links": [  
-      {  
-        "label": "View on GitHub",  
-        "type": "github",  
-        "url": "https://github.com"  
-      }  
-    ]  
-  },  
-  {  
-    "id": 2,  
-    "title": "Animation Demo",  
-    "type": "gif",  
-    "file": "media/animation-demo/anim.gif",  
-    "duration": "3:00",  
-    "description": "Check out this smooth animation!",  
-    "links": [  
-      {  
-        "label": "YouTube",  
-        "type": "youtube",  
-        "url": "https://youtube.com"  
-      }  
-    ]  
-  },  
-  {  
-    "id": 3,  
-    "title": "Design Showcase",  
-    "type": "image",  
-    "file": "media/design/screenshot.png",  
-    "duration": "N/A",  
-    "description": "A beautiful design mockup.",  
-    "links": []  
-  },  
-  {  
-    "id": 4,  
-    "title": "Project Four",  
-    "type": "video",  
-    "file": "media/project-four/video.mp4",  
-    "duration": "1:45",  
-    "description": "Another great project to showcase.",  
-    "links": [  
-      {  
-        "label": "Live Demo",  
-        "type": "link",  
-        "url": "https://example.com"  
-      }  
-    ]  
-  },  
-  {  
-    "id": 5,  
-    "title": "Project Five",  
-    "type": "gif",  
-    "file": "media/project-five/animation.gif",  
-    "duration": "2:15",  
-    "description": "Final project in the first section.",  
-    "links": []  
-  }  
+[
+  {
+    "id": 1,
+    "title": "nero arcaedus",
+    "type": "video",
+    "file": "media/blender_DUDV5gpGae.mp4",
+    "duration": "0:06",
+    "description": "nero arcaedus - Project 1"
+  },
+  {
+    "id": 2,
+    "title": "nero arcaedus",
+    "type": "video",
+    "file": "media/blender_EnR8pQw4LC.mp4",
+    "duration": "0:08",
+    "description": "nero arcaedus - Project 2"
+  },
+  {
+    "id": 3,
+    "title": "nero arcaedus",
+    "type": "video",
+    "file": "media/blender_dDohvOjMro.mp4",
+    "duration": "0:04",
+    "description": "nero arcaedus - Project 3"
+  },
+  {
+    "id": 4,
+    "title": "nero arcaedus",
+    "type": "video",
+    "file": "media/blender_fnk5sPpwVC.mp4",
+    "duration": "0:07",
+    "description": "nero arcaedus - Project 4"
+  },
+  {
+    "id": 5,
+    "title": "nero arcaedus",
+    "type": "video",
+    "file": "media/blender_i5EODc3WQr.mp4",
+    "duration": "0:05",
+    "description": "nero arcaedus - Project 5"
+  },
+  {
+    "id": 6,
+    "title": "nero arcaedus",
+    "type": "video",
+    "file": "media/blender_DUDV5gpGae.mp4",
+    "duration": "0:06",
+    "description": "nero arcaedus - Project 6"
+  },
+  {
+    "id": 7,
+    "title": "nero arcaedus",
+    "type": "video",
+    "file": "media/blender_EnR8pQw4LC.mp4",
+    "duration": "0:08",
+    "description": "nero arcaedus - Project 7"
+  },
+  {
+    "id": 8,
+    "title": "nero arcaedus",
+    "type": "video",
+    "file": "media/blender_dDohvOjMro.mp4",
+    "duration": "0:04",
+    "description": "nero arcaedus - Project 8"
+  },
+  {
+    "id": 9,
+    "title": "nero arcaedus",
+    "type": "video",
+    "file": "media/blender_fnk5sPpwVC.mp4",
+    "duration": "0:07",
+    "description": "nero arcaedus - Project 9"
+  },
+  {
+    "id": 10,
+    "title": "nero arcaedus",
+    "type": "video",
+    "file": "media/blender_i5EODc3WQr.mp4",
+    "duration": "0:05",
+    "description": "nero arcaedus - Project 10"
+  }
 ]
