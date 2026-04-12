@@ -62,17 +62,18 @@ function createMediaItem(media, index) {
 function openModal(index) {
     const media = mediaData[index];
     const modal = document.getElementById('modal');
-    const modalBody = document.getElementById('modal-body');
+    const modalMedia = document.getElementById('modal-media');
+    const modalInfo = document.getElementById('modal-info');
 
     let mediaHTML = '';
     if (media.type === 'video') {
-        mediaHTML = `<video controls style="width: 100%; height: auto;"><source src="${media.file}" type="video/mp4"></video>`;
+        mediaHTML = `<video controls autoplay><source src="${media.file}" type="video/mp4"></video>`;
     } else if (media.type === 'image' || media.type === 'gif') {
-        mediaHTML = `<img src="${media.file}" alt="${media.title}" style="width: 100%; height: auto;">`;
+        mediaHTML = `<img src="${media.file}" alt="${media.title}">`;
     }
 
-    modalBody.innerHTML = `
-        ${mediaHTML}
+    modalMedia.innerHTML = mediaHTML;
+    modalInfo.innerHTML = `
         <h2>${media.title}</h2>
         <p>${media.description}</p>
     `;
@@ -81,11 +82,14 @@ function openModal(index) {
 }
 
 function closeModal() {
-    document.getElementById('modal').style.display = 'none';
+    const modal = document.getElementById('modal');
+    modal.style.display = 'none';
+    document.getElementById('modal-media').innerHTML = '';
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-    document.querySelector('.close').onclick = closeModal;
+    document.getElementById('modalCloseBtn').onclick = closeModal;
+
     document.getElementById('modal').onclick = (e) => {
         if (e.target === document.getElementById('modal')) closeModal();
     };
