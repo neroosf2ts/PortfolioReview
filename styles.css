@@ -16,6 +16,7 @@ header {
     background-color: #000000;
     padding: 40px 20px;
     border-bottom: 3px solid #00ff00;
+    text-align: center;
 }
 
 .title {
@@ -31,18 +32,18 @@ header {
 main {
     max-width: 1400px;
     margin: 0 auto;
-    padding: 40px 20px;
+    padding: 0;
     background-color: #000000;
 }
 
 section {
-    margin-bottom: 80px;
+    margin-bottom: 0;
 }
 
 .media-grid {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    gap: 20px;
+    gap: 0;
 }
 
 .media-item {
@@ -50,16 +51,18 @@ section {
     width: 100%;
     aspect-ratio: 1 / 1;
     background-color: #1a1a1a;
-    border-radius: 8px;
-    overflow: hidden;
+    border-radius: 0;
+    overflow: visible;
     cursor: pointer;
-    transition: all 0.3s ease;
+    transition: transform 0.3s ease, filter 0.3s ease, box-shadow 0.3s ease;
+    z-index: 0;
 }
 
 .media-item:hover {
     transform: scale(1.15);
     filter: brightness(0.7);
     box-shadow: 0 0 20px rgba(0, 255, 0, 0.5);
+    z-index: 10;
 }
 
 .media-item img,
@@ -68,6 +71,7 @@ section {
     height: 100%;
     object-fit: cover;
     display: block;
+    border-radius: 0;
 }
 
 .media-item-label {
