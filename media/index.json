@@ -1,11 +1,11 @@
 [
   {
     "id": 1,
-    "title": "Video Test",
+    "title": "Scissors Moveset",
     "type": "video",
-    "file": "media/blender_DUDV5gpGae.mp4",
-    "duration": "0:06",
-    "description": "Testing Testing"
+    "file": "media/Scissors.mp4",
+    "duration": "Unico Internal Scissors Moveset",
+    "description": "3D Animator for Scissors from Unico Internal's game Star Strikers"
   },
   {
     "id": 2,
