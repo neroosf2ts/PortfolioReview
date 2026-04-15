@@ -4,39 +4,15 @@
     "title": "Scissors Moveset",
     "type": "video",
     "file": "media/Scissors.mp4",
-    "duration": "Unico Internal Scissors Moveset",
-    "description": "3D Animator for Scissors from Unico Internal's game Star Strikers"
+    "duration": "Work for Unico Internal's Game",
+    "description": "3D Animation Moveset for Scissors from Unico Internal's Game Star Strikers"
   },
   {
     "id": 2,
     "title": "Vavava",
     "type": "video",
-    "file": "media/blender_EnR8pQw4LC.mp4",
+    "file": "media/Scissors.mp4",
     "duration": "By him",
     "description": "bring bang bang bo"
-  },
-  {
-    "id": 3,
-    "title": "Waaa",
-    "type": "video",
-    "file": "media/blender_dDohvOjMro.mp4",
-    "duration": "Hoo",
-    "description": "Hooo 3"
-  },
-  {
-    "id": 4,
-    "title": "Vavawwwa",
-    "type": "video",
-    "file": "media/blender_fnk5sPpwVC.mp4",
-    "duration": "gqeaaeg",
-    "description": "rgwhrghw"
-  },
-  {
-    "id": 5,
-    "title": "Test",
-    "type": "DEscription",
-    "file": "media/blender_EnR8pQw4LC.mp4",
-    "duration": "gaegaeaeg",
-    "description": "rgwhrghw"
   }
 ]
